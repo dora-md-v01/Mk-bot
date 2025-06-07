@@ -7,7 +7,7 @@ const chalk = require("chalk")
 const fs = require("fs")
 //auto presence update
 global.autoTyping = false //auto typing in group chat (true to enable, false to disable)
-global.autoRecord = false //auto recording (true to enable, false to disable)
+global.autoRecord = true //auto recording (true to enable, false to disable)
 global.autoblockmorroco = true //auto block 212 (true to enable, false to disable)
 global.autokickmorroco = true //auto kick 212 (true to enable, false to disable) 
 global.antispam = false //auto kick spammer (true to enable, false to disable)
